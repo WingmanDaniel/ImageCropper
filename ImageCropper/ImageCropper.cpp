@@ -1,7 +1,7 @@
 // ImageCropper.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 using namespace std;
-#include "BMPEditer.h"
+#include "BMPEditor.h"
 
 int main(int argc, char* argv[])
 {
@@ -17,7 +17,7 @@ int main(int argc, char* argv[])
     if (argc == 2)
     {
         string pathname = argv[argc - 1];
-        BMPEditer inputFile = BMPEditer(pathname);
+        BMPEditor inputFile = BMPEditor(pathname);
         inputFile.TrimBoundingRect("fozzie-out.bmp");
         cout << pathname << " is edited, and the output file, fozzie-out.bmp is saved at same folder." << endl;
     }

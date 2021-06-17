@@ -21,23 +21,15 @@
     <ClCompile Include="BMP.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="BMPEditer.cpp">
+    <ClCompile Include="BMPEditor.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <Image Include="..\Debug\fozzie-in.bmp">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="..\Debug\fozzie-boundingrect.bmp">
-      <Filter>Resource Files</Filter>
-    </Image>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BMP.h">
       <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="BMPEditer.h">
+    <ClInclude Include="BMPEditor.h">
       <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>

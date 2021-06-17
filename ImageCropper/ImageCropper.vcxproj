@@ -140,16 +140,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="BMP.cpp" />
-    <ClCompile Include="BMPEditer.cpp" />
+    <ClCompile Include="BMPEditor.cpp" />
     <ClCompile Include="ImageCropper.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="..\Debug\fozzie-boundingrect.bmp" />
-    <Image Include="..\Debug\fozzie-in.bmp" />
-  </ItemGroup>
-  <ItemGroup>
     <ClInclude Include="BMP.h" />
-    <ClInclude Include="BMPEditer.h" />
+    <ClInclude Include="BMPEditor.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
